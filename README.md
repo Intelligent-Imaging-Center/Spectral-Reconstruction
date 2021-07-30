@@ -42,9 +42,9 @@ The overall taxonomy of the spectral reconstruction methods and the full lists f
 
 ### Data-driven methods
 #### Linear CNN
-[//]:# <div align="center">
-[//]:# <img src=Figs/fig3.png>
-[//]: # </div>
+[//]:# (<div align="center">)
+[//]:# (<img src=Figs/fig3.png>)
+[//]: # (</div>)
 Three typical Linear CNN methods. (a) HSCNN. (b) SR2D/3DNet. (c) Residual HSRCNN
 
 
