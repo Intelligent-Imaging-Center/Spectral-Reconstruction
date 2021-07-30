@@ -45,27 +45,20 @@ The overall taxonomy of the spectral reconstruction methods and the full lists f
 [//]:# (<div align="center">)
 [//]:# (<img src=Figs/fig3.png>)
 [//]: # (</div>)
-Three typical Linear CNN methods. (a) HSCNN. (b) SR2D/3DNet. (c) Residual HSRCNN
+This kind of network is stacked convolutional layers, and the design has only one path and does not include multiple branches. (a) [HSCNN](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Xiong_HSCNN_CNN-Based_Hyperspectral_ICCV_2017_paper.pdf) (b) [SR2D/3DNet](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.pdf) (c) [Residual HSRCNN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8545634)
 
 
 ##### U-Net model
-<div align="center">
-<img src=Figs/fig4.png>
-</div>
-Spectral reconstruction methods using the U-Net model. (a) SRUNet. (b) SRMSCNN. (c) SR-MXRUNet. (d) SRBFWU-Net with supervised learning (left) and unsupervised learning (right).  
+The U-Net model is composed of an encoder and a decoder. (a) [SRUNet](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Stiebel_Reconstructing_Spectral_Images_CVPR_2018_paper.pdf) (b) [SRMSCNN](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_18) (c) [SRMXRUNet](https://arxiv.org/pdf/2004.07003.pdf) (d) [SRBFWU-Net](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Fubara_RGB_to_Spectral_Reconstruction_via_Learned_Basis_Functions_and_Weights_CVPRW_2020_paper.pdf) with supervised learning and unsupervised learning.
 
 
 #### GAN model
-<div align="center">
-<img src=Figs/fig5.png>
-</div>
-The two spectral reconstruction methods use the GAN model, and their discriminators are both PatchGAN. (a) SRCGAN takes Conditional GAN as the main framework. (b) SAGAN includes SAP-UNet withoutboundary supervision and SAP-WNet with boundary supervision.
+
+The two spectral reconstruction methods use the GAN model, and their discriminators are both PatchGAN. (a) [SRCGAN](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Alvarez-Gila_Adversarial_Networks_for_ICCV_2017_paper.pdf) takes Conditional GAN as the main framework. (b) [SAGAN](https://www.mdpi.com/1424-8220/20/8/2426) includes SAP-UNet withoutboundary supervision and SAP-WNet with boundary supervision.
 
 #### Dense Network
-<div align="center">
-<img src=Figs/fig6.png>
-</div>
-Spectral  reconstruction  methods  based  on  Dense  Network.  (a)  SRTiramisuNet.  (b)  HSCNN+,respectively HSCNN-U, HSCNN-R, and HSCNN-D from top to bottom.
+
+Spectral  reconstruction  methods  based  on  Dense  Network.  (a)  [SRTiramisuNet]() (b)  [HSCNN+]()
  
 Residual Network
 <div align="center">
@@ -117,10 +110,10 @@ Pixel-aware  Deep  Function-mixture  Network.
 - Akhtar, Naveed, and Ajmal Mian. "Hyperspectral Recovery from RGB Images Using Gaussian Processes." IEEE transactions on pattern analysis and machine intelligence, 2018.[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8481553)]
 ### Papers - Data-driven methods
 - Xiong, Zhiwei, et al. "HSCNN: Cnn-based Hyperspectral Image Recovery from Spectrally Undersampled Projections." In ICCVW, 2017.[[paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Xiong_HSCNN_CNN-Based_Hyperspectral_ICCV_2017_paper.pdf)]
-- Koundinya, Sriharsha, et al. "2d-3d cnn based architectures for spectral reconstruction from rgb images." In ICCVW, 2018.[[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.pdf)]
+- Koundinya, Sriharsha, et al. "2D-3D CNN based Architectures for Spectral Reconstruction from RGB Images." In ICCVW, 2018.[[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.pdf)]
 - Han, Xian-Hua, Boxin Shi, and Yinqiang Zheng. "Residual HSRCNN: Residual Hyperspectral Reconstruction CNN from an RGB Image." In ICPR, 2018.[[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8545634)]
 - Stiebel, Tarek, et al. "Reconstructing Spectral Images from RGB Images Using a Convolutional Neural Network."In ICCVW, 2018.[[paper](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Stiebel_Reconstructing_Spectral_Images_CVPR_2018_paper.pdf)]
-- Yan, Yiqi, et al. "Accurate spectral super-resolution from single RGB image using multi-scale CNN." In PRCV,  2018.[[paper](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_18)][[code](https://github.com/ml-lab/Multiscale-Super-Spectral)]
+- Yan, Yiqi, et al. "Accurate Spectral Super-resolution from Single RGB Image Using Multi-scale CNN." In PRCV,  2018.[[paper](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_18)][[code](https://github.com/ml-lab/Multiscale-Super-Spectral)]
 - Banerjee, Atmadeep, and Akash Palrecha. "Mxr-u-nets for Real Time Hyperspectral Reconstruction." arXiv, 2020.[[paper](https://arxiv.org/pdf/2004.07003.pdf)][[code](https://github.com/akashpalrecha/hyperspectral-reconstruction)]
 - Fubara, Biebele Joslyn, Mohamed Sedky, and David Dyke. "RGB to Spectral Reconstruction via Learned Basis Functions and Weights." In CVPRW, 2020.[[paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Fubara_RGB_to_Spectral_Reconstruction_via_Learned_Basis_Functions_and_Weights_CVPRW_2020_paper.pdf)]
 - Alvarez-Gila, Aitor, Joost Van De Weijer, and Estibaliz Garrote. "Adversarial Networks for Spatial Context-aware Spectral Image Reconstruction from RGB." In CVPRW, 2018.[[paper](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Alvarez-Gila_Adversarial_Networks_for_ICCV_2017_paper.pdf)]
