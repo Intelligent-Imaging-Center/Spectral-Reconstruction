@@ -14,7 +14,7 @@ A list of papers and resources for spectral reconstruction from images. This pag
 This page mainly describes the overview of spectral reconstruction from RGB images. This work conducts a thorough investigation of more than 25 state-of-the-art spectral reconstruction methods with respect to available database.
 
 ## Overview
-![fig2](https://github.com/surunmu/Spectral_Reconstruction/blob/main/Figs/fig2.png)
+![fig2](/Figs/fig2.png)
 The overall taxonomy of the spectral reconstruction methods and the full lists for each category
 
 
