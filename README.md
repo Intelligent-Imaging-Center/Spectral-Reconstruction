@@ -6,7 +6,7 @@ A list of papers and resources for spectral reconstruction from images.
 1. [Introduction](#Introduction)
 2. [Overview](#Overview)
 3. [Datasets](#Datasets)
-4. [Algorithm-Survey](#(Algorithm-Survey))
+4. [Algorithm-Survey](#Algorithm-Survey)
 5. [Results](#Results)
 6. [References](#References)
 
