@@ -53,52 +53,21 @@ The U-Net model is composed of an encoder and a decoder. (a) [SRUNet](https://op
 
 
 #### GAN model
-
-The two spectral reconstruction methods use the GAN model, and their discriminators are both PatchGAN. (a) [SRCGAN](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Alvarez-Gila_Adversarial_Networks_for_ICCV_2017_paper.pdf) takes Conditional GAN as the main framework. (b) [SAGAN](https://www.mdpi.com/1424-8220/20/8/2426) includes SAP-UNet withoutboundary supervision and SAP-WNet with boundary supervision.
+The generative adversarial network (GAN) model is  composed  of  a  generator  and  a  discriminator. (a) [SRCGAN](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Alvarez-Gila_Adversarial_Networks_for_ICCV_2017_paper.pdf) takes Conditional GAN as the main framework. (b) [SAGAN](https://www.mdpi.com/1424-8220/20/8/2426) includes SAP-UNet withoutboundary supervision and SAP-WNet with boundary supervision.
 
 #### Dense Network
-
-Spectral  reconstruction  methods  based  on  Dense  Network.  (a)  [SRTiramisuNet]() (b)  [HSCNN+]()
+The core idea of dense network is to densely con-nect all front and back layers to achieve higher flexibil-ity and richer feature representation, which can reducethe  vanishing  of  gradients  and  ensure  the  stability  ofthe network. (a)  [SRTiramisuNet](https://arxiv.org/pdf/1703.09470.pdf) (b)  [HSCNN+](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Shi_HSCNN_Advanced_CNN-Based_CVPR_2018_paper.pdf)
  
-Residual Network
-<div align="center">
-<img src=Figs/fig7.png>
-</div>
-Two spectral reconstruction methods based onResidual  Network.(a)  SREfficientNet.  (b)  SREffi-cientNet+ where CM, SM, and GM refer to Con-ditional Model, Specialized Model and Generic Modelrespectively.  
+### Residual Network
+Compared with the linear CNN, the residual network can avoid the vanishing of the gradient by further deepening the network. (a)  [SREfficientNet]() (b)  [SREfficientNet+](https://arxiv.org/pdf/1804.04647.pdf)
 
-#### Attention Network
-###### 1. SRAWAN
-<div align="center">
-<img src=Figs/fig8.png>
-</div>
-Adaptive  Weighted  Attention  Network  withcamera spectral sensitivity prior.  
-
-###### 2. SRHRNet
-<div align="center">
-<img src=Figs/fig9.png>
-</div>
-4-level  Hierarchical  Regression  Network.  
-
-##### 3. SRRPAN
-<div align="center">
-<img src=Figs/fig10.png>
-</div>
-Residual Pixel Attention Network.
+### Attention Network
+The attention-based model allows this flexibility and takesinto account that not all features are important for SR.(a) [SRAWAN](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Li_Adaptive_Weighted_Attention_Network_With_Camera_Spectral_Sensitivity_Prior_for_CVPRW_2020_paper.pdf) (b) [SRHRNet](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Zhao_Hierarchical_Regression_Network_for_Spectral_Reconstruction_From_RGB_Images_CVPRW_2020_paper.pdf)  (c) [SRRPAN](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Peng_Residual_Pixel_Attention_Network_for_Spectral_Reconstruction_From_RGB_Images_CVPRW_2020_paper.pdf)
 
 ##### Multi-branch Network
-###### 1. SRLWRDNet
-<div align="center">
-<img src=Figs/fig11.png>
-</div>
-Light  Weight  Residual  Dense  Attention  Network.  
-
-###### 2. SRPFMNet
-<div align="center">
-<img src=Figs/fig12.png>
-</div>
-Pixel-aware  Deep  Function-mixture  Network.  
-
-
+In  contrast  to  single-stream  CNN,  the  goal  of  multi-branch network is to obtain a diverse set of features on multiple context scales.This design can alsoachieve multi-path signal flow, leading to better infor-mation  exchange  during  training. (a) [SRLWRDNet](https://arxiv.org/ftp/arxiv/papers/2004/2004.06930.pdf) (b) [SRPFMNet](https://ojs.aaai.org/index.php/AAAI/article/view/6978)
+ 
+ 
 ## References
 ### Papers - Prior-based methods
 - Arad, Boaz, and Ohad Ben-Shahar. "Sparse Recovery of Hyperspectral Signal from Natural RGB Images." In ECCV, 2016.[[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46478-7_2)]
