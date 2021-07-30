@@ -58,10 +58,10 @@ The generative adversarial network (GAN) model is  composed  of  a  generator  a
 #### Dense Network
 The core idea of dense network is to densely con-nect all front and back layers to achieve higher flexibil-ity and richer feature representation, which can reducethe  vanishing  of  gradients  and  ensure  the  stability  ofthe network. (a)  [SRTiramisuNet](https://arxiv.org/pdf/1703.09470.pdf) (b)  [HSCNN+](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Shi_HSCNN_Advanced_CNN-Based_CVPR_2018_paper.pdf)
  
-### Residual Network
+#### Residual Network
 Compared with the linear CNN, the residual network can avoid the vanishing of the gradient by further deepening the network. (a)  [SREfficientNet]() (b)  [SREfficientNet+](https://arxiv.org/pdf/1804.04647.pdf)
 
-### Attention Network
+#### Attention Network
 The attention-based model allows this flexibility and takesinto account that not all features are important for SR.(a) [SRAWAN](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Li_Adaptive_Weighted_Attention_Network_With_Camera_Spectral_Sensitivity_Prior_for_CVPRW_2020_paper.pdf) (b) [SRHRNet](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Zhao_Hierarchical_Regression_Network_for_Spectral_Reconstruction_From_RGB_Images_CVPRW_2020_paper.pdf)  (c) [SRRPAN](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Peng_Residual_Pixel_Attention_Network_for_Spectral_Reconstruction_From_RGB_Images_CVPRW_2020_paper.pdf)
 
 ##### Multi-branch Network
