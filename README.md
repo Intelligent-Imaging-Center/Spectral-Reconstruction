@@ -1,21 +1,19 @@
 # Learnable Reconstruction Methods from RGB Images to Hyperspectral Imaging: A Survey
 
-A list of papers and resources for spectral reconstruction from images. This page will continue to be updated and will upload our latest research results.
+Last updated on July 31, 2021
+
+We provide a thorough investigation of more than 25 state-of-the-art spectral reconstruction methods as well as publicly available datasets on the topic of spectral reconstruction from RGB images. This page will be frequently updated and maintained with state-of-the-art methods.
 
 ## Contents
 1. [Introduction](#Introduction)
 2. [Overview](#Overview)
 3. [Datasets](#Datasets)
 4. [Algorithms](#Algorithms)
-5. [References](#References)
-
-
-## Introduction
-This page mainly describes the overview of spectral reconstruction from RGB images. This work conducts a thorough investigation of more than 25 state-of-the-art spectral reconstruction methods with respect to available database.
+5. [References](#References) 
 
 ## Overview
 ![fig2](/Figs/fig2.png)
-The overall taxonomy of the spectral reconstruction methods and the full lists for each category
+An overall taxonomy of the spectral reconstruction methods and the full lists for each category.
 
 
 ## Datasets
