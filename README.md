@@ -23,10 +23,10 @@ The overall taxonomy of the spectral reconstruction methods.
 
 | Dataset        | Amount           | Resolution  | Spectral channels|Spectrum/(nm) | Featured scenes |
 |:----------------:|:-----------------:|:------------------:|:----------------:|:----------------:|:-------------:|
-| [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)| 32 | <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;512\times&space;512\times&space;31" title="512\times 512\times 31" />|31|400-700|skin, hair, food and drink|
-| [ICVL](http://icvl.cs.bgu.ac.il/hyperspectral/)| 203|  <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;1392\times&space;1300\times&space;31" title="1392\times 1300\times 31" /> |31 |400-700|urban, rural, indoor and plant|
-| [BGU-HS](https://competitions.codalab.org/competitions/18034#participate-get-data)| 286  |   <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;1392\times&space;1300\times&space;31" title="1392\times 1300\times 31" /> |31|400-700|urban, rural, indoor and plant|
-|[ARAD-HS](https://competitions.codalab.org/competitions/22225#participate)| 510  |    <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;512\times&space;482\times&space;31" title="512\times 482\times 31" />  |31|400-700|statue,  vehicle and paint|
+| [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)| 32 | <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;512\times&space;512" title="512\times 512" />|31|400-700|skin, hair, food and drink|
+| [ICVL](http://icvl.cs.bgu.ac.il/hyperspectral/)| 203|  <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;1392\times&space;1300" title="1392\times 1300" /> |31 |400-700|urban, rural, indoor and plant|
+| [BGU-HS](https://competitions.codalab.org/competitions/18034#participate-get-data)| 286  |   <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;1392\times&space;1300" title="1392\times 1300" /> |31|400-700|urban, rural, indoor and plant|
+|[ARAD-HS](https://competitions.codalab.org/competitions/22225#participate)| 510  |    <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;512\times&space;482" title="512\times 482" />  |31|400-700|statue,  vehicle and paint|
 
 ## Algorithms
 
