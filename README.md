@@ -15,6 +15,7 @@ This page mainly describes the overview of spectral reconstruction from RGB imag
 
 ## Overview
 ![fig2](/Figs/fig2.png)
+
 The overall taxonomy of the spectral reconstruction methods and the full lists for each category
 
 
