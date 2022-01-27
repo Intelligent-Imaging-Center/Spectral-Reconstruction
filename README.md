@@ -49,7 +49,7 @@ The overall taxonomy of the spectral reconstruction methods.
 This kind of network is stacked convolutional layers, and the design has only one path and does not include multiple branches. (a) [HSCNN](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Xiong_HSCNN_CNN-Based_Hyperspectral_ICCV_2017_paper.pdf) (b) [SR2D/3DNet](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Koundinya_2D-3D_CNN_Based_CVPR_2018_paper.pdf) (c) [Residual HSRCNN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8545634)
 
 
-##### U-Net 
+#### U-Net 
 The U-Net model is composed of an encoder and a decoder. (a) [SRUNet](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Stiebel_Reconstructing_Spectral_Images_CVPR_2018_paper.pdf) (b) [SRMSCNN](https://link.springer.com/chapter/10.1007/978-3-030-03335-4_18) (c) [SRMXRUNet](https://arxiv.org/pdf/2004.07003.pdf) (d) [SRBFWU-Net](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Fubara_RGB_to_Spectral_Reconstruction_via_Learned_Basis_Functions_and_Weights_CVPRW_2020_paper.pdf) with supervised learning and unsupervised learning.
 
 
