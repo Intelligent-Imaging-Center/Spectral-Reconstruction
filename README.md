@@ -1,4 +1,4 @@
-# Learnable Reconstruction Methods from RGB Images to Hyperspectral Imaging: A Survey
+# Computational Reconstruction from RGB to Hyperspectral Imaging: A Survey
 
 A list of papers and resources for spectral reconstruction from images. This page will continue to be updated and will upload our latest research results.
 
