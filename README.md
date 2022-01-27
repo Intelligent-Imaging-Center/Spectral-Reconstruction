@@ -37,8 +37,8 @@ The overall taxonomy of the spectral reconstruction methods.
 |[SR A+](https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w9/Aeschbacher_In_Defense_of_ICCV_2017_paper.pdf)|Dictionary Learning|sparsity, local euclidean linearity|
 |[Multiple Non-negative Sparse Dictionaries](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8410422)|Dictionary Learning|spatial structure similarity, spectral correlation|
 |[Local Linear Embedding Sparse Dictionary](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8116687)|Dictionary Learning|color and texture, local linearity|
-|[Spatially Constrained Dictionary Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8898871) |Dictionary Learning|color and texture, local linearity|
-|[SR Manifold Mapping](https://openaccess.thecvf.com/content_ICCV_2017/papers/Jia_From_RGB_to_ICCV_2017_paper.pdf)|Manifold Learning|ow-dimensional manifold|
+|[Spatially Constrained Dictionary Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8898871) |Dictionary Learning|spatial context|
+|[SR Manifold Mapping](https://openaccess.thecvf.com/content_ICCV_2017/papers/Jia_From_RGB_to_ICCV_2017_paper.pdf)|Manifold Learning|low-dimensional manifold|
 |[SR Gaussian Process](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8481553) |Gaussian Process|spectral physics, spatial structure similarity|
 
 ### Data-driven methods
